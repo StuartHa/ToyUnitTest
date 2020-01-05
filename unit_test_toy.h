@@ -1,6 +1,5 @@
-
-#ifndef CATCH2_TEST_STU_TEST_H
-#define CATCH2_TEST_STU_TEST_H
+#ifndef UNIT_TEST_TOY_H
+#define UNIT_TEST_TOY_H
 
 #include <algorithm>
 #include <iostream>
@@ -137,4 +136,4 @@ int main() {
     return std::any_of(test_cases.begin(), test_cases.end(), [](auto in) { return in->failed_assertion; });
 }
 
-#endif //CATCH2_TEST_STU_TEST_H
+#endif //UNIT_TEST_TOY_H

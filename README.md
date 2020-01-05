@@ -27,9 +27,9 @@ TEST_CASE("vector capacity grows with size") {
 ```
 git clone https://github.com/StuartHa/ToyUnitTest
 cd ToyUnitTest
-conan install
-cmake --build .
+conan install .
 cmake .
+cmake --build .
 ./bin/unit_test_toy
 ```
 
